@@ -1,0 +1,49 @@
+.container-app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  word-spacing: 10px;
+   
+
+  background: hsla(185, 64%, 51%, 1);
+  background: radial-gradient(circle, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 79%);
+  background: -moz-radial-gradient(circle, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 79%);
+  background: -webkit-radial-gradient(circle, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 79%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#30c5d2", endColorstr="#471069", GradientType=1 );
+}
+.links{
+  background-color: hsla(185, 64%, 51%, 1);
+  border: solid 2px black;
+  border-radius: 8px;
+  width: 60%;
+  height: 35px;
+  padding: 5px;
+  color: blueviolet;
+  box-shadow: 8px 7px 8px #000000;
+  
+  text-decoration: none;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 10px;
+
+  gap: 5px;
+}
+
+h2{
+  font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55px;
+}
+
+/* https://icon-sets.iconify.design/ */
