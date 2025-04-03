@@ -1,7 +1,9 @@
 import './App.css'
 import { FaGithubSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
+
+
+import Linkedin from './components/Linkedin';
+import Instagram from './components/Instagram';
 
 
 function App() {
@@ -14,12 +16,10 @@ function App() {
         <a href="https://github.com/CAMILALISTON" className='links' target='blank'>
         <FaGithubSquare /> GitHub 
         </a>
-        <a href="https://www.linkedin.com/in/camila-liston/" className='links' target='blank'>
-        <FaLinkedin />Linkedin
-        </a>
-        <a href="https://www.instagram.com/camilaliston/#" className='links' target='blank'>
-        <FaInstagram /> Instagram
-        </a>
+
+        <Linkedin />
+
+        <Instagram />
      
     </div>
   )
